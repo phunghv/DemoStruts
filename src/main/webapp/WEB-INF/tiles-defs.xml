@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+<!--
+     This is a blank Tiles definition file with a commented example.
+-->
+
+<tiles-definitions>
+
+    
+    <definition name="main-template" path="/WEB-INF/layout/main-layout.jsp">
+        <put name="title"  value="Entity Linking" />
+        <put name="header" value="/WEB-INF/layout/header.jsp" />
+        <put name="footer" value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    <!-- sample tiles definitions
+    <definition name=".mainMenu" path="/common/layouts/vboxLayout.jsp" >
+        <putList name="list" >
+            <add value=".menu.links" />
+            <add value=".menu.taglib.references" />
+            <add value=".menu.printer.friendly" />
+            <add value=".menu.old.documents" />
+      </putList>
+    </definition>
+    end samples -->
+    
+    <definition name="main.page" extends="main-template">
+        <put name="title"  value="Another Title" />
+        <put name="body"   value="/WEB-INF/pages/main-body.jsp" />
+    </definition>
+    
+
+</tiles-definitions>

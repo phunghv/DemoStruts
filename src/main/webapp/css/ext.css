@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 27, 2015, 9:33:37 PM
+    Author     : Phung Hoang
+*/
+
+.header{
+
+    background-color: #E7E7E7;
+    background: #E7E7E7;
+}
+.icon-menu{
+    font-size: 2em;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dropdown-menu li {
+    min-width: 200px;
+}
+.dropdown-menu li a{
+    margin-bottom: auto;
+    margin-top: auto;
+    line-height: 40px;
+    font-size: 1.4em;
+}
